@@ -5,14 +5,16 @@ footer {
     justify-content: space-between;
 }
 
-a {
+ .amail, .atel {
     text-decoration: none;
     color: gray;
 }
 
-a:hover{
+ .amail:hover, .atel:hover {
     color: black;
 }
+
+
 
 .vertical-line{
     width: 2px;
@@ -32,6 +34,11 @@ a:hover{
     margin-top: 0.5cm;
 }
  /* Partie footer */
+
+
+
+
+
 
  /* Partie CONTACT */
  iframe {
