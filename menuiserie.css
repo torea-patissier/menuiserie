@@ -1,3 +1,4 @@
+/* Partie footer */
 footer {
     display: flex;
     text-decoration: none;
@@ -18,3 +19,58 @@ a:hover{
     height: 6cm;
     border-left: 1px solid black;
 }
+
+.réseaux {
+    margin-right: 0.5ccm;
+}
+
+.ig, .fb {
+    margin-right: 0.4cm;
+}
+
+.contact2{
+    margin-top: 0.5cm;
+}
+ /* Partie footer */
+
+ /* Partie CONTACT */
+ iframe {
+    width: 100%;
+    height: 5cm;
+}
+
+#bloc1, #bloc2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#bloc2 {
+    margin-top: 1cm;
+}
+
+#bloc3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15cm;
+    height: 10cm;
+    margin-left: 11cm;
+    margin-top: 1cm;
+}
+
+textarea {
+    resize: none;
+}
+
+.sujet {
+    margin-bottom: 0.5cm;
+    display: flex;
+    justify-content: center;
+}
+
+.nom , .ntel {
+    margin-right:4cm ;
+}
+/* Partie CONTACT */
+
