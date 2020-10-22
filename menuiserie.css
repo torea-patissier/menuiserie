@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+nav {
+    background-color: black;
+    overflow: hidden;
+    padding-bottom: 0.5cm;
+    border: none !important ;
+    position: fixed;
+    width: 100%;
+  }
+  nav .navbar {
+    float: right;
+    color: whitesmoke;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: xx-large;
+    margin-top: 0.4cm;
+    margin-right: 1cm;
+  }
+  nav .navbar:hover {
+    background-color:rgba(245, 245, 245, 0.356);
+    color: black;
+  }
+  nav .navbar :hover {
+    color: whitesmoke;
+    float: left;
+    margin-top: 0.4cm;
+    margin-left: 1cm;
+  }
+  /* NAV BAR */
+
+/* PAGE ACCEUIL */
+  .accueil{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+}
+  .main-accueil{
+      color: white;
+      padding-top: 15%;
+  }
+  .monbeaumeuble{
+    font-size: xx-large;
+    animation: tracking-in-expand-fwd-bottom 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+  .menuiserie{
+    font-size: x-large;
+    animation: tracking-in-expand-fwd-bottom 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+  .monbeaumeuble, .menuiserie{
+      margin-left: 20%;
+      margin-right: 30%;
+      color: pink;
+  } 
+  @keyframes tracking-in-expand-fwd-bottom {
+    0% {
+      letter-spacing: -0.5em;
+      transform: translateZ(-700px) translateY(500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+/* PAGE ACCEUIL */
+
+/* PAGE L'ENTREPRISE */
+.terrasse{
+    padding-top: 5.2%;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+/* PAGE L'ENTREPRISE */
