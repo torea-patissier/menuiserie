@@ -147,6 +147,7 @@ nav {
 
 }
 
+
 .footerprésentation{
   transform: translateY(2cm);
 }
@@ -201,6 +202,45 @@ footer, iframe{
 
  /* Partie footer */
 
+ /* PARTIE REALISATION */
+
+ table{
+   padding-top: 10%;
+   margin-left: 4%;
+ }
+
+.tableau3{
+padding-bottom: 0%;
+}
+.porte2{
+  width: 90%;
+}
+.fenetre2{
+width: 90%;
+}
+.pergolas3{
+  width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* PARTIE REALISATION */
+
+
+
+
  /* Partie CONTACT */
 
 
@@ -220,8 +260,6 @@ footer, iframe{
     flex-direction: row;
     justify-content: center;
     border: 1px black;
-
-
 }
 
 .bloc2 {
