@@ -10,6 +10,7 @@ nav {
     border: none !important ;
     position: fixed;
     width: 100%;
+    z-index: 30;
   }
   nav .navbar {
     float: right;
@@ -77,5 +78,51 @@ nav {
     height: auto;
     background-color: black;
 }
-
 /* PAGE L'ENTREPRISE */
+
+/* PAGE QUI SUIS-JE */
+
+.meuble{
+    position: absolute;
+    top: 8%;
+    right: 0%;
+    border-radius: 5%;
+    margin-right: 1%;
+}
+.chambre{
+  border-radius: 5%;
+  margin-left: 1%;
+}
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 15px 50px;
+  padding: 30px;
+  width: 30%;
+}
+.cercle{
+  width: 5cm;
+  height: 5cm;
+  background: url(images/julien.png);
+  background-size: 100% 100%;
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle();
+  margin: 10px;
+}
+.julien{
+  list-style-type: none;
+
+}
+
+
+
+
+
+
+/* PAGE QUI SUIS-JE */
