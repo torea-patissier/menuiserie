@@ -6,6 +6,10 @@ font-family: 'Nunito', sans-serif;
 margin:0;
 padding: 0;
 }
+
+li {
+  list-style-type: none;
+}
 nav {
     background-color: black;
     overflow: hidden;
@@ -34,6 +38,15 @@ nav {
     margin-top: 0.4cm;
     margin-left: 1cm;
   }
+
+  a {
+    text-decoration: none;
+    color: gray;
+  }
+
+  a:hover{
+    color: black;
+  }
   /* NAV BAR */
 
 /* PAGE ACCEUIL */
@@ -56,12 +69,12 @@ nav {
   .monbeaumeuble, .menuiserie{
       margin-left: 20%;
       margin-right: 30%;
-      color: pink;
+      color: rgb(255, 255, 255);
   } 
   @keyframes tracking-in-expand-fwd-bottom {
     0% {
       letter-spacing: -0.5em;
-      transform: translateZ(-700px) translateY(500px);
+      transform: translateZ(-700px) translateY(800px);
       opacity: 0;
     }
     40% {
@@ -72,6 +85,10 @@ nav {
       opacity: 1;
     }
   }
+
+  .footeraccueil {
+    transform: translateY(13cm);
+  }
 /* PAGE ACCEUIL */
 
 /* PAGE L'ENTREPRISE */
@@ -81,6 +98,11 @@ nav {
     height: auto;
     background-color: black;
 }
+
+.footerentreprise {
+  transform: translateY(1cm);
+}
+
 /* PAGE L'ENTREPRISE */
 
 /* PAGE QUI SUIS-JE */
@@ -91,10 +113,12 @@ nav {
     right: 0%;
     border-radius: 5%;
     margin-right: 1%;
+    margin-top: 2.7cm;
 }
 .chambre{
   border-radius: 5%;
   margin-left: 1%;
+  margin-top: 4cm;
 }
 .container{
   position: absolute;
@@ -122,6 +146,12 @@ nav {
   list-style-type: none;
 
 }
+
+
+.footerprésentation{
+  transform: translateY(2cm);
+}
+
 /* PAGE QUI SUIS-JE */
 
 /* Partie footer */
@@ -159,7 +189,6 @@ footer {
 }
 
 footer, iframe{
-    transform: translateY(13cm);
     background-color: whitesmoke;
 }
 
@@ -214,24 +243,6 @@ width: 90%;
 
  /* Partie CONTACT */
 
-    .imgmeuble, .imgmeuble2 {
-        display: flex;
-        justify-content: space-between;
-        transform: translateY(13cm);
-        position: absolute;
-        z-index: 1;
-        border-radius: 1rem;
-        box-shadow: 8px 8px 10px 4px rgba(0, 0, 0, 0.295);
-    }
-
-    .imgmeuble2{
-        right: 0%;
-        margin-right: 0.5cm;
-    }
-
-    .imgmeuble {
-        margin-left: 0.5cm;
-    }
 
  .h1contact {
      display: flex;
@@ -244,16 +255,10 @@ width: 90%;
     height: 8cm;
 }
 
-#parent{
-    position: relative;
-}
-
 .bloc1, .bloc2{
     display: flex;
     flex-direction: row;
-    transform: translateY(9cm);
     justify-content: center;
-    margin-top: -9cm;
     border: 1px black;
 }
 
@@ -269,7 +274,6 @@ width: 90%;
     height: 10cm;
     margin-left: 11cm;
     margin-top: 1cm;
-    transform: translateY(8cm);
 }
 
 textarea {
@@ -289,8 +293,6 @@ textarea {
 .envoyer{
     display: flex;
     justify-content: center;
-    transform: translateY(7cm);
-    z-index: 10;
 }
 
 :placeholder-shown {
@@ -301,14 +303,19 @@ textarea {
 input[type=text], input[type=email], input[type=tel], textarea {
     background-color: rgba(168, 168, 168, 0.096);
     font-size: large;
-    /* border: solid 1px black; */
 }
 
 input[type='submit']{
    width: 6cm; 
    height: 1.2cm;
+   margin-bottom: 0.5cm;
 }
 
+.navcontact {
+  padding: 0%;
+  margin: 0%;
+  background-color: black;
+}
 /* Partie CONTACT */
 
 
