@@ -5,7 +5,9 @@ body{
 font-family: 'Nunito', sans-serif;
 margin:0;
 padding: 0;
+box-sizing:border-box;
 }
+
 
 li {
   list-style-type: none;
@@ -223,19 +225,6 @@ width: 90%;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
  /* PARTIE REALISATION */
 
 
@@ -247,6 +236,7 @@ width: 90%;
  .h1contact {
      display: flex;
      justify-content: center;
+     padding-top: 5cm;
 
  }
 
@@ -312,10 +302,10 @@ input[type='submit']{
 }
 
 .navcontact {
-  padding: 0%;
-  margin: 0%;
-  background-color: black;
+  margin-top: -1.4%;
 }
+
+
 /* Partie CONTACT */
 
 
