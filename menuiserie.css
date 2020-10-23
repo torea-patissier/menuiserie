@@ -1,4 +1,12 @@
 /* Partie footer */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+
+
+body{
+font-family: 'Nunito', sans-serif;
+margin:0;
+padding: 0%;
+}
 footer {
     display: flex;
     text-decoration: none;
@@ -14,18 +22,15 @@ footer {
     color: black;
 }
 
-
-
 .vertical-line{
     width: 2px;
-    height: 6cm;
+    height: 6.5cm;
     border-left: 1px solid black;
 }
 
 .réseaux {
     margin-right: 0.5ccm;
 }
-
 .ig, .fb {
     margin-right: 0.4cm;
 }
@@ -33,30 +38,74 @@ footer {
 .contact2{
     margin-top: 0.5cm;
 }
+
+footer, iframe{
+    transform: translateY(13cm);
+    background-color: whitesmoke;
+}
+
+.horaires {
+    margin-left: 2.5cm;
+}
+
+.réseaux{
+    margin-right: 2.5cm;
+}
+
  /* Partie footer */
 
-
-
-
-
-
  /* Partie CONTACT */
+
+    .imgmeuble, .imgmeuble2 {
+        display: flex;
+        justify-content: space-between;
+        transform: translateY(13cm);
+        position: absolute;
+        z-index: 1;
+        border-radius: 1rem;
+        box-shadow: 8px 8px 10px 4px rgba(0, 0, 0, 0.295);
+    }
+
+    .imgmeuble2{
+        right: 0%;
+        margin-right: 0.5cm;
+    }
+
+    .imgmeuble {
+        margin-left: 0.5cm;
+    }
+
+ .h1contact {
+     display: flex;
+     justify-content: center;
+
+ }
+
  iframe {
     width: 100%;
-    height: 5cm;
+    height: 8cm;
 }
 
-#bloc1, #bloc2{
+#parent{
+    position: relative;
+}
+
+.bloc1, .bloc2{
     display: flex;
-    justify-content: center;
     flex-direction: row;
+    transform: translateY(9cm);
+    justify-content: center;
+    margin-top: -9cm;
+    border: 1px black;
+
+
 }
 
-#bloc2 {
+.bloc2 {
     margin-top: 1cm;
 }
 
-#bloc3{
+.bloc3{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,6 +113,7 @@ footer {
     height: 10cm;
     margin-left: 11cm;
     margin-top: 1cm;
+    transform: translateY(8cm);
 }
 
 textarea {
@@ -79,5 +129,29 @@ textarea {
 .nom , .ntel {
     margin-right:4cm ;
 }
+
+.envoyer{
+    display: flex;
+    justify-content: center;
+    transform: translateY(7cm);
+    z-index: 10;
+}
+
+:placeholder-shown {
+    font-size: large;
+    text-align: center;
+}
+
+input[type=text], input[type=email], input[type=tel], textarea {
+    background-color: rgba(168, 168, 168, 0.096);
+    font-size: large;
+    /* border: solid 1px black; */
+}
+
+input[type='submit']{
+   width: 6cm; 
+   height: 1.2cm;
+}
+
 /* Partie CONTACT */
 
