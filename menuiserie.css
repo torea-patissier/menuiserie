@@ -63,10 +63,12 @@ nav {
   .monbeaumeuble{
     font-size: xx-large;
     animation: tracking-in-expand-fwd-bottom 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    text-shadow: 2px 2px 2px black;
   }
   .menuiserie{
     font-size: x-large;
     animation: tracking-in-expand-fwd-bottom 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    text-shadow: 2px 2px 2px black;
   }
   .monbeaumeuble, .menuiserie{
       margin-left: 20%;
@@ -103,6 +105,36 @@ nav {
 
 .footerentreprise {
   transform: translateY(1cm);
+}
+.h1entreprise{
+  text-align: center;
+  color: brown;
+  
+}
+.main1{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.terrasse4{
+  height: 400px;
+  width: auto;
+}
+.presentation-entreprise{
+  display: flex;
+  flex-direction: row;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.texte-entreprise{
+  margin-right: 10%;
+  font-size: 0.5cm;
+}
+.titre-travaux{
+  color: black;
+  
+}
+.texte-entreprise2{
+  font-size: 0.5cm;
 }
 
 /* PAGE L'ENTREPRISE */
@@ -224,6 +256,14 @@ width: 90%;
   width: 90%;
 }
 
+.un, .deux, .trois{
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.6cm;
+}
+.un{
+  margin-bottom: 1cm;
+}
 
  /* PARTIE REALISATION */
 
@@ -262,7 +302,7 @@ width: 90%;
     justify-content: center;
     width: 15cm;
     height: 10cm;
-    margin-left: 11cm;
+    margin-left: 35%;
     margin-top: 1cm;
 }
 
@@ -304,7 +344,6 @@ input[type='submit']{
 .navcontact {
   margin-top: -1.4%;
 }
-
 
 /* Partie CONTACT */
 
